@@ -4,6 +4,7 @@ function function1() {
     document.getElementById("audio3").pause();
     document.getElementById("audio4").pause();
     document.getElementById("audio5").pause();
+    document.getElementById("audio6").pause();
   document.getElementById("im1").style.borderColor="pink";
   document.getElementById("im2").style.borderColor="aliceblue";
   document.getElementById("im3").style.borderColor="aliceblue";
@@ -18,6 +19,7 @@ function function1() {
             document.getElementById("audio3").pause();
             document.getElementById("audio4").pause();
             document.getElementById("audio5").pause();
+            document.getElementById("audio6").pause();
        document.getElementById("im1").style.borderColor="aliceblue";
   document.getElementById("im2").style.borderColor="pink";
   document.getElementById("im3").style.borderColor="aliceblue";
@@ -31,6 +33,7 @@ function function1() {
             document.getElementById("audio3").play();
             document.getElementById("audio4").pause();
             document.getElementById("audio5").pause();
+            document.getElementById("audio6").pause();
      document.getElementById("im1").style.borderColor="aliceblue";
   document.getElementById("im2").style.borderColor="aliceblue";
   document.getElementById("im3").style.borderColor="pink";
@@ -44,6 +47,7 @@ function function1() {
             document.getElementById("audio3").pause();
             document.getElementById("audio4").play();
             document.getElementById("audio5").pause();
+            document.getElementById("audio6").pause();
      document.getElementById("im1").style.borderColor="aliceblue";
   document.getElementById("im2").style.borderColor="aliceblue";
   document.getElementById("im3").style.borderColor="aliceblue";
@@ -57,6 +61,7 @@ function function1() {
             document.getElementById("audio3").pause();
             document.getElementById("audio4").pause();
             document.getElementById("audio5").play();
+            document.getElementById("audio6").pause();
      document.getElementById("im1").style.borderColor="aliceblue";
   document.getElementById("im2").style.borderColor="aliceblue";
   document.getElementById("im3").style.borderColor="aliceblue";
@@ -66,11 +71,12 @@ function function1() {
 }
 
 function function6() {
-    document.getElementById("audio1").play();
+    document.getElementById("audio1").pause();
     document.getElementById("audio2").pause();
     document.getElementById("audio3").pause();
     document.getElementById("audio4").pause();
     document.getElementById("audio5").pause();
+    document.getElementById("audio6").play();
   document.getElementById("im1").style.borderColor="aliceblue";
   document.getElementById("im2").style.borderColor="aliceblue";
   document.getElementById("im3").style.borderColor="aliceblue";
